@@ -1,0 +1,11 @@
+const express = require("express");
+const router = express.Router();
+
+router.get("/", (req, res) => {
+    res.send({
+        success: true,
+        message: "Testing Socket.io Documentation",
+    });
+});
+
+module.exports = router;
