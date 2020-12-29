@@ -35,6 +35,7 @@ const Chat = ({ location }) => {
             setMessages([...messages, message]);
         });
     }, [messages]);
+    
 
     const sendMessage = (event) => {
         event.preventDefault();
